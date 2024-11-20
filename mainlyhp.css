@@ -10,6 +10,7 @@ header {
 
 nav {
     height: 48px;
+    display: flex;
 }
 
 .anav {
@@ -54,3 +55,22 @@ button:hover {
 /* padding: ;
     border: ;
     margin: ; */
+
+.banner {
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin: 30px;
+}
+
+.pbanner {
+    margin: 90px;
+    text-align: center;
+}
+
+.imgbanner {
+    height: 480px;
+}
