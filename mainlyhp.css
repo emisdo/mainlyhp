@@ -243,10 +243,37 @@ nav {
 
 /* footer */
 
+#footer-section1 {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer-navbar {
     color: gray;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+}
+
+.footer-navbar h3 {
+    color: black;
+    font-weight: 600;
+}
+
+.footer-navbar li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer-navbar li:hover {
+    cursor: pointer;
+}
+
+.footer-navbar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-navbar a:hover {
+    color: black;
 }
