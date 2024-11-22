@@ -1,15 +1,27 @@
 /* padding: ;
     border: ;
     margin: ; */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-header {
-    font-family: "Open Sans", sans-serif;
-}
+/* rem
+    em
+    vw
+    vh */
+    
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    font-display: swap;
+}
+
+header {
+    padding: 1.33rem;
+}
+
+nav {
+    height: 3rem;
+    display: flex;
 }
 
 #nav-section1 {
@@ -27,28 +39,35 @@ body {
 
 #button-login {
     background-color: white;
-    border-width: 1px;
-    height: 32px;
-    padding: 8px;
-    border-radius: 60px;
+    border-width: 0.05rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 4rem;
     font-weight: 700;
-    margin: 12px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #button-login:hover {
     color: gray;
+    border-color: gray;
     cursor: pointer;
 }
 
 #button-join {
     background-color: black;
     color: white;
-    border-width: 1px;
-    height: 32px;
-    padding: 8px;
-    border-radius: 60px;
+    border-width: 0;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 4rem;
     font-weight: 700;
-    margin: 12px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #button-join:hover {
@@ -56,66 +75,69 @@ body {
     cursor: pointer;
 }
 
-header {
-    box-shadow: 1px 1px 5px lightgray;
-    margin: 0;
-    padding: 25px;
-}
-
-nav {
-    height: 48px;
-    display: flex;
-}
-
-.anav {
+.a-nav {
     color: black;
     text-decoration: none;
     font-weight: 700;
-    margin: 20px;
+    margin: 2rem;
 }
 
-.anav:hover {
-    color: rgb(33, 107, 88);
+.a-nav:hover {
+    color: #1e3932;
+    border: 0.25rem;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #1e3932;
+    padding: 2rem 0 2rem 0;
+    margin: 0 2rem 0 2rem;
 }
 
-#img-ubi {
+#a-ubi {
     color: black;
     text-decoration: none;
     font-weight: 700;
-    margin: 20px;
-    margin-left: 8px;
-    margin-right: 45px;
+    margin: 1rem;
+    margin-left: 0;
 }
 
-#img-ubi:hover {
-    color: rgb(33, 107, 88);
+#a-ubi:hover {
+    color: gray;
 }
 
 #ubi {
     height: 30px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #logo {
-    height: 55px;
-    margin-right: 7.5%;
+    height: 3.5rem;
+    margin: 1rem;
 }
 
 .banner {
-    background-color: rgb(33, 107, 88);
+    background-color: #1e3932;
     color: white;
-    font-weight: 900;
     display: flex;
     flex-direction: row;
-    font-size: 40px;
-    margin: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 55vh;
 }
 
 .text-banner {
-    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
     text-align: center;
+    justify-content: center;
+}
+
+.text-banner h1 {
+    margin: 0;
 }
 
 .img-banner {
-    height: 550px;
+    width: 50vw;
 }
