@@ -188,10 +188,11 @@ nav {
     height: 100vh;
     font-weight: 600;
     font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .img-poster {
-    width: 45vw;
+    width: 48vw;
     height: 70vh;
 }
 
@@ -238,4 +239,14 @@ nav {
     border-radius: 4rem;
     font-weight: 600;
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* footer */
+
+.footer-navbar {
+    color: gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
