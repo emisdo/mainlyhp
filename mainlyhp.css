@@ -66,6 +66,28 @@ nav {
     cursor: pointer;
 }
 
+#banner-button {
+    background-color: #dc3545;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.05rem;
+    height: 2rem;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
 .a-nav {
     color: black;
     text-decoration: none;
@@ -144,7 +166,7 @@ nav {
     flex-direction: column;
     width: 50vw;
     text-align: center;
-    justify-content: center;
+    align-items: center;
     width: 40vw;
     margin: 4rem;
 }
@@ -155,4 +177,65 @@ nav {
 
 .img-banner {
     width: 50vw;
+}
+
+/* posters */
+
+.posters {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 100vh;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.img-poster {
+    width: 45vw;
+    height: 70vh;
+}
+
+.poster-button:hover {
+    cursor: pointer;
+}
+
+/* poster-red */
+
+#poster-red {
+    color: #dc3545;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+#poster-red-button {
+    color: #dc3545;
+    background-color: pink;
+    border-color: #dc3545;
+    border-width: 0.05rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* poster-blue */
+
+#poster-blue {
+    color: rgb(0, 0, 134);
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#poster-blue-button {
+    color: rgb(0, 0, 134);
+    background-color: lightskyblue;
+    border-color: rgb(0, 0, 134);
+    border-width: 0.05rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
