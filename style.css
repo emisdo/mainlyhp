@@ -243,57 +243,39 @@ nav {
 
 /* footer */
 
+/* footer-section-1 */
+
 #footer-section-1 {
     display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 0.05rem;
-    margin: 2rem;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
+    border: 0.05rem solid lightgray;
+    border-width: 0 0 0.05rem 0;
+    margin: 1rem;
 }
 
-.footer-navbar {
-    color: gray;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-#customer-service {
-    padding-left: 3rem;
-}
-
-.footer-navbar h3 {
-    color: black;
-    font-weight: 500;
-}
-
-.footer-navbar ul {
-    padding: 0;
-}
-
-.footer-navbar li {
+.footer-ul-1 {
     list-style: none;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
+    padding: 0;
 }
 
-.footer-navbar li:hover {
-    cursor: pointer;
+.footer-ul-1 li {
+    margin-bottom: 1rem;
 }
 
-.footer-navbar a {
+.footer-ul-1 a {
     text-decoration: none;
     color: gray;
 }
 
-.footer-navbar a:hover {
+.footer-ul-1 a:hover {
     color: black;
+}
+
+.footer-nav {
+    height: auto;
+}
+
+.footer-subsection {
+    margin: 1rem;
 }
 
 /* footer-section-2 */
@@ -319,18 +301,18 @@ nav {
     margin: 1rem;
 }
 
-#footer-ul-2 {
+.footer-ul {
     display: flex;
     align-items: center;
 }
 
-#footer-ul-2 li {
+.footer-ul li {
     list-style: none;
     padding: 0;
     margin: 1rem;
 }
 
-#footer-ul-2 li:hover {
+.footer-ul li:hover {
     cursor: pointer;
     color: black;
 }
