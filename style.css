@@ -299,14 +299,43 @@ nav {
 /* footer-section-2 */
 
 #footer-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 1rem;
     color: gray;
-    font-weight: 300;
-    justify-items: center;
 }
 
-#footer-section-2 ul{
-    padding: none;
-    list-style: none;
+#footer-p-2 {
+    font-size: 0.9rem;
+}
+
+#footer-p-2 {
+    font-size: 0.7rem;
+}
+
+#footer-nav-2 {
+    margin: 1rem;
+}
+
+#footer-ul-2 {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+#footer-ul-2 li {
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+}
+
+#footer-ul-2 li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#footer-section-2 p {
+    padding: 0;
+    margin: 0;
 }
