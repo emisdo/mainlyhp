@@ -129,6 +129,8 @@ nav {
     margin: 1rem;
 }
 
+/* banners */
+
 .banner {
     color: white;
     display: flex;
@@ -184,62 +186,70 @@ nav {
 
 .posters {
     display: flex;
-    flex-direction: row;
-    width: 50vw;
-    height: 100vh;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 1px 10px lightgrey;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48.5vw;
     font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 2rem;
+}
+
+#red-poster {
+    color: #dc3545;
 }
 
 .img-poster {
-    width: 48vw;
-    height: 70vh;
+    height: auto;
+    max-width: 100%;
+}
+
+.text-poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 15vw;
+    margin: 2rem;
+}
+
+#text-poster-blue {
+    width: 10vw;
+}
+
+#red-poster {
+    background-color: pink;
+}
+
+#blue-poster {
+    background-color: lightskyblue;
+}
+
+.poster-button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 3rem;
+    border: 1px solid;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .poster-button:hover {
     cursor: pointer;
 }
 
-/* poster-red */
-
-#poster-red {
-    color: #dc3545;
-    background-color: pink;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 2rem;
-}
-
 #poster-red-button {
     color: #dc3545;
     background-color: pink;
-    border-color: #dc3545;
-    border-width: 0.05rem;
-    border-radius: 4rem;
-    font-weight: 600;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-}
-
-/* poster-blue */
-
-#poster-blue {
-    color: rgb(0, 0, 134);
-    background-color: lightskyblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #poster-blue-button {
-    color: rgb(0, 0, 134);
+    color: rgb(0, 0, 150);
     background-color: lightskyblue;
-    border-color: rgb(0, 0, 134);
-    border-width: 0.05rem;
-    border-radius: 4rem;
-    font-weight: 600;
-    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 /* footer */
