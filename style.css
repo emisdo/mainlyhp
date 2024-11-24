@@ -132,9 +132,7 @@ nav {
 .banner {
     color: white;
     display: flex;
-    flex-direction: row;
     font-size: 1.2rem;
-    font-weight: 600;
     height: 60vh;
     margin-bottom: 2rem;
 }
@@ -164,15 +162,18 @@ nav {
 .text-banner {
     display: flex;
     flex-direction: column;
-    width: 50vw;
     text-align: center;
+    justify-content: center;
     align-items: center;
-    width: 40vw;
-    margin: 4rem;
+    padding: 5rem;
 }
 
 .text-banner h1 {
     margin: 0;
+}
+
+.text-banner p {
+    font-weight: 500;
 }
 
 .img-banner {
