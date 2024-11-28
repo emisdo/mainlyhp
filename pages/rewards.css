@@ -1,0 +1,46 @@
+main {
+    display: flex;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#banner-section {
+    color: white;
+    background-color: green;
+    height: 100vh;
+    width: 40vw;
+}
+
+#slice-section {
+    justify-content: flex-start;
+}
+
+.img-text-set {
+    display: flex;
+    align-items: baseline;
+}
+
+.img-text-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.img-text-unit img {
+    width: 9vmax;
+    height: auto;
+}
+
+.img-text-unit p {
+    width: 9vmax;
+}

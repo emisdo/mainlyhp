@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 1rem;
 }
 
 #a-ubication {
@@ -67,7 +68,7 @@ header {
     border-left: 0;
 }
 
-.header-section button {
+button {
     padding: 0.5rem;
     margin: 1rem;
     border-radius: 4rem;
@@ -75,26 +76,26 @@ header {
     border: 1px solid black;
 }
 
-.header-section button:hover {
+button:hover {
     cursor: pointer;
 }
 
-#login-button {
+.login-button {
     color: black;
     background-color: white;
 }
 
-#login-button:hover {
+.login-button:hover {
     background-color: lightgray;
 }
 
-#join-button {
+.join-button {
     color: white;
     background-color: black;
     margin-left: 0;
 }
 
-#join-button:hover {
+.join-button:hover {
     background-color: lightgray;
 }
 
