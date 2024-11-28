@@ -14,14 +14,18 @@ header {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    margin-bottom: 0.5rem;
     box-shadow: 1px 0 0.5rem 0 lightgray;
 }
 
-.header-img {
+#logo-img {
     height: auto;
     width: 4vw;
-    margin: 1rem;
+    padding: 1rem;
+}
+
+#ubication-img {
+    width: 2vw;
+    height: auto;
 }
 
 .header-section {
@@ -30,15 +34,23 @@ header {
     align-items: center;
 }
 
+#a-ubication {
+    padding-left: 0;
+}
+
+#a-ubication:hover {
+    margin-left: 0;
+}
+
 .header-section a {
     text-decoration: none;
     color: black;
-    margin: 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 
 .header-section a:hover {
     color: green;
-    padding: 1rem 0 0.75rem 0;
+    padding: 2rem 0 1.75rem 0;
     margin: 0 1rem 0 1rem;
     border: 0.25rem solid green;
     border-top: 0;
@@ -47,7 +59,7 @@ header {
 }
 
 #selected-page {
-    padding: 1rem 0 0.75rem 0;
+    padding: 2rem 0 1.75rem 0;
     margin: 0 1rem 0 1rem;
     border: 0.25rem solid green;
     border-top: 0;
