@@ -1,0 +1,58 @@
+main {
+    margin: 2rem;
+    background-color: white;
+}
+
+.menu-section {
+    display: block;
+    padding: 1.5rem 0 1.5rem 0;
+    border: 1px solid black;
+    border-right: 0;
+    border-left: 0;
+}
+
+.menu-set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+}
+
+.menu-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.menu-unit img {
+    background-color: green;
+    border-radius: 100%;
+    width: 15vw;
+    height: auto;
+}
+
+.menu-unit img:hover {
+    cursor: pointer;
+}
+
+.menu-unit p {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.h-main {
+    margin: 2rem 0 2rem 0;
+}
+
+h1 {
+    width: 40vw;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
