@@ -1,12 +1,12 @@
 main {
-    margin: 2rem;
     background-color: white;
 }
 
 .menu-section {
     display: block;
     padding: 1.5rem 0 1.5rem 0;
-    border: 1px solid black;
+    margin: 0 2rem 0 2rem;
+    border: 1px solid lightgrey;
     border-right: 0;
     border-left: 0;
 }
@@ -27,14 +27,20 @@ main {
 }
 
 .menu-unit img {
-    background-color: green;
+    background-color: #1e3932;
     border-radius: 100%;
-    width: 15vw;
+    width: 14vw;
+    border: 1vw solid #1e3932;
     height: auto;
 }
 
-.menu-unit img:hover {
+.menu-unit:hover {
     cursor: pointer;
+}
+
+.menu-unit img:hover {
+    width: 14vw;
+    border: 1vw solid lightcyan;
 }
 
 .menu-unit p {
@@ -43,7 +49,7 @@ main {
 }
 
 .h-main {
-    margin: 2rem 0 2rem 0;
+    margin: 2rem;
 }
 
 h1 {
@@ -55,4 +61,9 @@ h1 {
 h3 {
     padding: 0;
     margin: 0;
+}
+
+footer {
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem 0 lightgray;
 }
