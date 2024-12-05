@@ -39,8 +39,7 @@ main {
 }
 
 .menu-unit img:hover {
-    width: 14vw;
-    border: 1vw solid lightcyan;
+    border-color: lightcyan;
 }
 
 .menu-unit p {

@@ -51,10 +51,10 @@ header {
 }
 
 .header-section a:hover {
-    color: green;
+    color: #1e3932;
     padding: 2rem 0 1.75rem 0;
     margin: 0 1rem 0 1rem;
-    border: 0.25rem solid green;
+    border: 0.25rem solid #1e3932;
     border-top: 0;
     border-right: 0;
     border-left: 0;
@@ -63,7 +63,7 @@ header {
 #selected-page {
     padding: 2rem 0 1.75rem 0;
     margin: 0 1rem 0 1rem;
-    border: 0.25rem solid green;
+    border: 0.25rem solid #1e3932;
     border-top: 0;
     border-right: 0;
     border-left: 0;
